@@ -38,9 +38,4 @@ public class Size
         this.height = height;
     }
 
-    @Override
-    public String toString()
-    {
-        return "ClassPojo [width = "+width+", length = "+length+", height = "+height+"]";
-    }
 }

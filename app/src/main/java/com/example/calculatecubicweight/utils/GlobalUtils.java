@@ -42,7 +42,7 @@ public class GlobalUtils {
      * @return float value, that is calculates cubic weight of product passed to the method.
      */
 
-    public static float calculateEachItemCubicWeight(Size size) {
+    private static float calculateEachItemCubicWeight(Size size) {
         float cubicWeight = parseFloat(size.getHeight()) / 100 *
                 parseFloat(size.getLength()) / 100 *
                 parseFloat(size.getWidth()) / 100;

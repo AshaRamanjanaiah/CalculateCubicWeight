@@ -17,7 +17,7 @@ import java.util.List;
 
 public class MainActivity extends AppCompatActivity {
 
-    public static final String AIR_CONDITIONER = "Air Conditioners";
+    private static final String AIR_CONDITIONER = "Air Conditioners";
     
     private TextView mAverageWeight;
     private RecyclerView recyclerView;

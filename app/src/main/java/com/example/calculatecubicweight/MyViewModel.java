@@ -19,7 +19,7 @@ public class MyViewModel extends ViewModel {
     private MutableLiveData<List<Objects>> products;
     public LiveData<List<Objects>> getProducts() {
         if (products == null) {
-            products = new MutableLiveData<List<Objects>>();
+            products = new MutableLiveData<>();
             loadUsers();
         }
         return products;
