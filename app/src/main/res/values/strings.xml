@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">CalculateCubicWeight</string>
+    <string name="title">Title</string>
+    <string name="cubic_weight">Cubic Weight</string>
+    <string name="air_conditioners">Air Conditioners</string>
+    <string name="average_cubic_weight">Average Cubic Weight of Air Conditioners: </string>
+    <string name="total_weight">Total Weight</string>
 </resources>
